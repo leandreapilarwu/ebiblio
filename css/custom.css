@@ -1,0 +1,389 @@
+
+@font-face {
+    font-family: 'geo';
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+/* Mobile first queries */
+/* applies to ALL widths */
+.header {
+    padding: 30px 0 20px 0;
+    background-image: url(../img/bib.png);
+    background-size: cover;
+    margin: 0;
+    height: 515px;
+    width: auto;
+}
+.logo {
+    font-family: 'geo';
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+    color: rgb(255, 209, 143);
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;   
+}
+.nav {
+    text-align: right;
+}
+.nav .button {
+    width: 48%;
+    margin: 10px 3px;
+    font-family: 'geo';
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+}
+.button {
+    border: none;
+}
+.button:hover {
+    background-color: rgba(255, 208, 143, 0.303);
+    border-radius: 0;
+}
+.button-primary {
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 0px 40px;
+    font-family: 'geo';
+    font-size: 13px;
+}
+.button-primary:hover {
+    border-radius: 30px;
+}
+.action {
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+.action p {
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.action h1 {
+    margin: 0;
+}
+.action h2 {
+    margin: 0 0 20px 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+ 
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+    .header {
+        padding: 40px 0 50px 0;
+    }
+    .logo {
+        position: static;
+        background-color: transparent;
+        font-size: 2rem; line-height: 1;
+    }
+    .nav .button {
+        width: auto;
+        }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 4.2rem;
+    }
+}
+
+/* Larger than tablet */
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+    .logo {
+        font-size: 4rem;
+        position: relative;
+        top: 5px;
+    }
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+
+}
+
+.title {
+    color: rgb(250, 182, 87);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'geo';
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+img {
+    height: 220px;
+    width: auto;
+    margin: 20px 0px 10px 0px;
+    padding: 3px;
+    background-color:  rgb(63, 54, 52);
+    border-radius: 16px;
+}
+.four h3, .three h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.four h4, .three h4 {
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 5px;
+}
+.four p, .nine p {
+    text-align: justify;
+}
+.four a, .three a{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin: 5px 2px; 
+    font-size: 10px; 
+}
+.four a:hover, .three a:hover{
+    border-radius: 20px;
+}
+.quote {
+    padding: 150px 270px;
+    background-color: rgb(255, 248, 234);
+    margin: 50px 0 150px 0;
+}
+.quote h1 {
+    font-size: 30px;
+    color: black;
+    font-family: 'geo';
+}
+.quote img {
+    height: 150px;
+    border-radius: 45px;
+}
+.quote p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'geo';
+    letter-spacing: .5px;
+    margin-bottom: 0;
+}
+.image {
+    height: 250px;
+    width: auto;
+    margin: 10px 0;
+    border-radius: 0;
+}
+.three h2, .eight h3, .six h3 {
+    color: rgb(250, 182, 87);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'geo';
+    margin: 3px 3px 0 0;
+}
+.synopsis {
+    font-size: 13.5px;
+    text-align: justify;
+    margin: 3px 0px;
+}
+.three p, .eight p, .six p, .two p {
+    margin: 5px 0;
+}
+.three p:hover, .eight p:hover, .sub:hover, .two p:hover {
+    color: rgb(250, 182, 87);
+    text-decoration: underline;
+}
+label {
+    margin-bottom: 10px;
+}
+hr {
+    border: 2.5px solid rgb(255, 248, 234);
+}
+.footer {
+    background-image: url(../img/foot.png);
+    background-size: cover;
+    height: 160px;
+    text-align: center;
+}
+.footer .icon {
+    background-color: white;
+    height: 50px;
+    width: auto;
+    padding: 0;
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-left: 13px;
+}
+.copyright {
+    color: white;
+    font-family: 'geo';
+}
+.ebook, .blogs, .about {
+    padding: 28px 0 20px 0;
+    background-image: url(../img/head.png);
+    background-size: cover;
+    margin: 0;
+    height: 45px;
+    width: auto;
+}
+.titlee {
+    color: rgb(250, 182, 87);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'geo';
+    margin-top: 60px;
+    margin-bottom: 0;
+    float: left;
+}
+.two img {
+    height: 200px;
+    width: auto;
+    margin: 20px 0px 10px 0px;
+    padding: 3px;
+    background-color:  rgb(63, 54, 52);
+    border-radius: 16px;
+}
+.two h3 {
+    font-size: 13.5px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.two h4 {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5px;
+}
+.two a{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 0px 13px;
+    margin: 5px 1px; 
+    font-size: 10px; 
+}
+.two a:hover {
+    border-radius: 18px;
+}
+.ebooks hr {
+    border: 1.5px solid rgb(253, 234, 191);
+    margin: 40px 160px 10px 160px;
+}
+h5 {
+    float: right;
+    font-size: 15px;
+    color: black;
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+h5:hover {
+    color:  rgb(253, 179, 76);
+}
+.six label {
+    margin-top: 60px;
+}
+.ten {
+    padding: 5px 6px 9px 5px;
+    background-color:  rgb(255, 248, 234);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.ten img {
+    height: 200px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+.ten h2 {
+    color: black;
+    font-size: 23px;
+    font-family: 'geo';
+    font-weight: bold;
+    margin: 20px 10px 5px 5px;
+}
+.author {
+    color: gray;
+    font-size: 13px;
+}
+.ten p {
+    text-align: justify;
+    margin: 10px 20px 0 5px;
+}
+.ten h5 {
+    float: right;
+    font-size: 13px;
+    color: rgb(255, 161, 30);
+    margin: 10px 10px 0 10px;
+}
+.ten h5:hover {
+    color:  black;
+    text-decoration: underline;
+}
+.load a {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 30px;
+    margin: 40px 0 100px 0; 
+    font-size: 10px; 
+}
+.load a:hover {
+    border-radius: 20px;
+}
+.nine h2 {
+    color: rgb(250, 182, 87);
+    font-size: 35px;
+}
+.nine h3 {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.nine h4 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+.nine a {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 0px 30px;
+    margin: 30px 10px 0 0; 
+    font-size: 10px; 
+}
+.soc {
+    height: 20px;
+    width: auto;
+    margin: 0 10px 5px 0;  
+    float: left;
+    display: block;
+    background-color: white;
+}
